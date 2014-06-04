@@ -16,6 +16,7 @@ filetype on
 filetype plugin on
 filetype indent plugin on
 set omnifunc=syntaxcomplete#Complete
+set nowrap
 "-- Spaces/Tabs --
 set expandtab		"Use spaces instead of tabs
 set shiftwidth=2
