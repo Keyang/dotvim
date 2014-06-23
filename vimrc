@@ -45,14 +45,15 @@ map <leader>j <C-w>j
 map <leader>k <C-w>k
 map <leader>l <C-w>l
 map <leader>n :NERDTreeToggle<CR>
-map <leader>t :CommandT<CR>
+map <leader>t :CtrlP<CR>
 vmap <leader>c "*y
 map <leader>/ :call NERDComment("n", "Toggle")<CR>
 autocmd FileType javascript map <leader>f :call JsBeautify()<CR>
 autocmd FileType html map <leader>f :call HtmlBeautify()<CR>
 autocmd FileType css map <leader>f :call CSSBeautify()<CR>
 map <leader>z :!bash<CR>
-
+map <leader>H <C-w>t
+map <leader>s <leader><leader>s
 "Custmoized commands
 com Vimrc edit ~/.vim/vimrc
 com Bash ConqueTerm bash
