@@ -31,12 +31,18 @@
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "bundle/AutoComplPop"]
-	path = bundle/AutoComplPop
-	url = https://github.com/vim-scripts/AutoComplPop.git
 [submodule "bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "bundle/vim-smooth-scrol"]
+	path = bundle/vim-smooth-scrol
+	url = https://github.com/terryma/vim-smooth-scroll.git
+[submodule "bundle/autocomplpop"]
+	path = bundle/autocomplpop
+	url = https://bitbucket.org/ns9tks/vim-autocomplpop
