@@ -46,3 +46,9 @@
 [submodule "bundle/autocomplpop"]
 	path = bundle/autocomplpop
 	url = https://bitbucket.org/ns9tks/vim-autocomplpop
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git

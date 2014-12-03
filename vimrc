@@ -65,10 +65,18 @@ noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 10, 4)<CR>
 noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 4)<CR>
 noremap <silent> <c-e> :call smooth_scroll#down(5, 0, 1)<CR>
 noremap <silent> <c-y> :call smooth_scroll#up(5, 0, 1)<CR>
-autocmd FileType go map <leader>d :GoInfo<CR>
 "Custmoized commands
 com Vimrc edit ~/.vim/vimrc
 com Bash ConqueTerm bash
-
+"YouCompleteME
+let g:ycm_autoclose_preview_window_after_insertion = 1 
 "GO configuration
 
+au FileType go nmap <Leader>s <Plug>(go-implements)
+au FileType go nmap <Leader>i <Plug>(go-info)
+au FileType go nmap <Leader>gd <Plug>(go-doc)
+au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+au FileType go nmap <Leader>ds <Plug>(go-def-split)
+au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
+au FileType go nmap <Leader>dt <Plug>(go-def-tab)
+let g:go_fmt_command = "goimports"
